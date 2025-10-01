@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "location": "Bangalore",
+    "rating": 5,
+    "text": "Great service and friendly staff.",
+    "date": "2025-09-01"
+  },
+  {
+    "id": 2,
+    "location": "Delhi",
+    "rating": 2,
+    "text": "Long wait times, not happy.",
+    "date": "2025-09-02"
+  },
+  {
+    "id": 3,
+    "location": "Mumbai",
+    "rating": 4,
+    "text": "Nice ambience, food was good.",
+    "date": "2025-09-03"
+  }
+]

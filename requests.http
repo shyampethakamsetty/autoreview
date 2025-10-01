@@ -1,0 +1,19 @@
+### Ingest reviews
+POST http://localhost:8000/ingest
+Content-Type: application/json
+x-api-key: supersecret
+
+[
+  {"id": 1, "location": "Bangalore", "rating": 5, "text": "Great service!", "date": "2025-09-01"},
+  {"id": 2, "location": "Delhi", "rating": 2, "text": "Too slow and noisy.", "date": "2025-09-02"}
+]
+
+### Get reviews
+GET http://localhost:8000/reviews
+x-api-key: supersecret
+
+### Suggest reply
+POST http://localhost:8000/reviews/1/suggest-reply
+Content-Type: application/json
+x-api-key: supersecret
+{"temperature":0.2}
