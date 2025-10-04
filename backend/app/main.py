@@ -87,7 +87,7 @@ def custom_swagger_ui_html(request: Request):
     """Custom Swagger UI that works correctly behind reverse proxy"""
     # Use relative path to work with both direct access and proxy
     openapi_url = "./openapi.json"
-    
+
     return f"""
     <!DOCTYPE html>
     <html>
