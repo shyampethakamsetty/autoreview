@@ -1,0 +1,1052 @@
+[
+  {
+    "id": 1,
+    "location": "Miami - South Beach",
+    "rating": 4,
+    "text": "Great atmosphere! Clean, modern, and very inviting space.",
+    "date": "2025-08-13"
+  },
+  {
+    "id": 2,
+    "location": "Miami - Brickell",
+    "rating": 2,
+    "text": "The place was dirty and poorly maintained. Not a pleasant atmosphere.",
+    "date": "2025-09-13"
+  },
+  {
+    "id": 3,
+    "location": "Portland - Hawthorne",
+    "rating": 2,
+    "text": "Very disappointing service. We waited 20 minutes just to be acknowledged.",
+    "date": "2025-07-31"
+  },
+  {
+    "id": 4,
+    "location": "Miami - Brickell",
+    "rating": 3,
+    "text": "Average experience overall. Some good points, some areas for improvement.",
+    "date": "2025-09-22"
+  },
+  {
+    "id": 5,
+    "location": "Miami - South Beach",
+    "rating": 5,
+    "text": "Exceptional service from start to finish. The team was incredibly professional.",
+    "date": "2025-08-04"
+  },
+  {
+    "id": 6,
+    "location": "Seattle - Capitol Hill",
+    "rating": 5,
+    "text": "Outstanding customer service! The staff went above and beyond to help us.",
+    "date": "2025-09-20"
+  },
+  {
+    "id": 7,
+    "location": "New York - Manhattan",
+    "rating": 5,
+    "text": "The service here is top-notch. Staff are knowledgeable and always smiling.",
+    "date": "2025-09-27"
+  },
+  {
+    "id": 8,
+    "location": "New York - Brooklyn",
+    "rating": 5,
+    "text": "Great atmosphere! Clean, modern, and very inviting space.",
+    "date": "2025-09-19"
+  },
+  {
+    "id": 9,
+    "location": "San Francisco - Mission District",
+    "rating": 3,
+    "text": "Fair pricing overall. You get what you pay for here.",
+    "date": "2025-09-15"
+  },
+  {
+    "id": 10,
+    "location": "Denver - LoDo",
+    "rating": 5,
+    "text": "Everything was perfect! Great food, service, and atmosphere.",
+    "date": "2025-09-22"
+  },
+  {
+    "id": 11,
+    "location": "Portland - Hawthorne",
+    "rating": 5,
+    "text": "Outstanding cuisine! The chef clearly knows what they're doing.",
+    "date": "2025-09-29"
+  },
+  {
+    "id": 12,
+    "location": "Austin - Downtown",
+    "rating": 3,
+    "text": "Fair experience. Some aspects were good, others could use improvement.",
+    "date": "2025-07-23"
+  },
+  {
+    "id": 13,
+    "location": "Chicago - Downtown",
+    "rating": 4,
+    "text": "Amazing deals and high quality. Definitely worth every penny.",
+    "date": "2025-09-12"
+  },
+  {
+    "id": 14,
+    "location": "Austin - Downtown",
+    "rating": 1,
+    "text": "Unpleasant environment with outdated decor and poor cleanliness standards.",
+    "date": "2025-09-30"
+  },
+  {
+    "id": 15,
+    "location": "New York - Manhattan",
+    "rating": 3,
+    "text": "Acceptable service quality. Nothing to complain about but nothing outstanding.",
+    "date": "2025-09-24"
+  },
+  {
+    "id": 16,
+    "location": "Los Angeles - Hollywood",
+    "rating": 5,
+    "text": "Amazing flavors and presentation. Best meal I've had in a long time!",
+    "date": "2025-09-20"
+  },
+  {
+    "id": 17,
+    "location": "Boston - Cambridge",
+    "rating": 1,
+    "text": "Terrible ambience! Too loud and the lighting was harsh and unwelcoming.",
+    "date": "2025-09-14"
+  },
+  {
+    "id": 18,
+    "location": "Los Angeles - Santa Monica",
+    "rating": 5,
+    "text": "Fantastic food quality and great variety on the menu. Highly recommended!",
+    "date": "2025-10-01"
+  },
+  {
+    "id": 19,
+    "location": "New York - Brooklyn",
+    "rating": 4,
+    "text": "Wonderful experience! This place sets the standard for excellence.",
+    "date": "2025-09-08"
+  },
+  {
+    "id": 20,
+    "location": "Austin - Downtown",
+    "rating": 5,
+    "text": "Perfect ambience for both casual dining and special occasions.",
+    "date": "2025-09-11"
+  },
+  {
+    "id": 21,
+    "location": "New York - Brooklyn",
+    "rating": 3,
+    "text": "Food was decent, though nothing particularly memorable about the flavors.",
+    "date": "2025-08-27"
+  },
+  {
+    "id": 22,
+    "location": "Chicago - Downtown",
+    "rating": 2,
+    "text": "Unacceptable service standards. Our server was inattentive and dismissive.",
+    "date": "2025-09-29"
+  },
+  {
+    "id": 23,
+    "location": "Portland - Hawthorne",
+    "rating": 2,
+    "text": "The food was cold and tasteless. Very disappointing quality for the price.",
+    "date": "2025-09-08"
+  },
+  {
+    "id": 24,
+    "location": "Boston - Cambridge",
+    "rating": 5,
+    "text": "Delicious food with generous portions. Everything was cooked to perfection.",
+    "date": "2025-08-14"
+  },
+  {
+    "id": 25,
+    "location": "San Francisco - Union Square",
+    "rating": 5,
+    "text": "Exceptional service from start to finish. The team was incredibly professional.",
+    "date": "2025-09-02"
+  },
+  {
+    "id": 26,
+    "location": "Miami - South Beach",
+    "rating": 4,
+    "text": "Outstanding customer service! The staff went above and beyond to help us.",
+    "date": "2025-09-18"
+  },
+  {
+    "id": 27,
+    "location": "Denver - Highland",
+    "rating": 5,
+    "text": "Outstanding cuisine! The chef clearly knows what they're doing.",
+    "date": "2025-08-26"
+  },
+  {
+    "id": 28,
+    "location": "Miami - Brickell",
+    "rating": 5,
+    "text": "Absolutely fantastic experience! Will definitely be coming back.",
+    "date": "2025-09-16"
+  },
+  {
+    "id": 29,
+    "location": "Los Angeles - Santa Monica",
+    "rating": 2,
+    "text": "Terrible food quality! My order was wrong and the taste was awful.",
+    "date": "2025-07-06"
+  },
+  {
+    "id": 30,
+    "location": "Seattle - Capitol Hill",
+    "rating": 3,
+    "text": "Service was okay, nothing special but adequate for our needs.",
+    "date": "2025-09-03"
+  },
+  {
+    "id": 31,
+    "location": "New York - Brooklyn",
+    "rating": 4,
+    "text": "Great atmosphere! Clean, modern, and very inviting space.",
+    "date": "2025-09-05"
+  },
+  {
+    "id": 32,
+    "location": "San Francisco - Union Square",
+    "rating": 1,
+    "text": "Overpriced and underwhelming. The food lacked flavor and freshness.",
+    "date": "2025-08-11"
+  },
+  {
+    "id": 33,
+    "location": "New York - Manhattan",
+    "rating": 5,
+    "text": "Amazing flavors and presentation. Best meal I've had in a long time!",
+    "date": "2025-08-16"
+  },
+  {
+    "id": 34,
+    "location": "New York - Manhattan",
+    "rating": 3,
+    "text": "It was okay. Nothing exceptional but met basic expectations.",
+    "date": "2025-09-07"
+  },
+  {
+    "id": 35,
+    "location": "Miami - South Beach",
+    "rating": 1,
+    "text": "The food was cold and tasteless. Very disappointing quality for the price.",
+    "date": "2025-09-11"
+  },
+  {
+    "id": 36,
+    "location": "Boston - Cambridge",
+    "rating": 5,
+    "text": "Outstanding experience from start to finish. Highly recommend!",
+    "date": "2025-08-16"
+  },
+  {
+    "id": 37,
+    "location": "Chicago - North Side",
+    "rating": 5,
+    "text": "Perfect ambience for both casual dining and special occasions.",
+    "date": "2025-09-23"
+  },
+  {
+    "id": 38,
+    "location": "Portland - Hawthorne",
+    "rating": 4,
+    "text": "The service here is top-notch. Staff are knowledgeable and always smiling.",
+    "date": "2025-08-03"
+  },
+  {
+    "id": 39,
+    "location": "Boston - Back Bay",
+    "rating": 5,
+    "text": "Amazing deals and high quality. Definitely worth every penny.",
+    "date": "2025-08-13"
+  },
+  {
+    "id": 40,
+    "location": "San Francisco - Mission District",
+    "rating": 2,
+    "text": "Unacceptable cleanliness levels. Health department should investigate this place.",
+    "date": "2025-09-12"
+  },
+  {
+    "id": 41,
+    "location": "Seattle - Capitol Hill",
+    "rating": 3,
+    "text": "Decent meal overall. Some items were good, others just average.",
+    "date": "2025-09-23"
+  },
+  {
+    "id": 42,
+    "location": "Miami - South Beach",
+    "rating": 5,
+    "text": "The decor is stunning and creates such a welcoming environment.",
+    "date": "2025-08-14"
+  },
+  {
+    "id": 43,
+    "location": "Los Angeles - Hollywood",
+    "rating": 4,
+    "text": "Wonderful experience with the service team. They made us feel very welcome.",
+    "date": "2025-08-30"
+  },
+  {
+    "id": 44,
+    "location": "San Francisco - Mission District",
+    "rating": 5,
+    "text": "Fantastic food quality and great variety on the menu. Highly recommended!",
+    "date": "2025-08-16"
+  },
+  {
+    "id": 45,
+    "location": "New York - Brooklyn",
+    "rating": 3,
+    "text": "Decent place overall. Not bad but not particularly memorable either.",
+    "date": "2025-08-06"
+  },
+  {
+    "id": 46,
+    "location": "Los Angeles - Santa Monica",
+    "rating": 3,
+    "text": "Food was decent, though nothing particularly memorable about the flavors.",
+    "date": "2025-09-20"
+  },
+  {
+    "id": 47,
+    "location": "Austin - Downtown",
+    "rating": 4,
+    "text": "Excellent value for money! Great quality at reasonable prices.",
+    "date": "2025-08-12"
+  },
+  {
+    "id": 48,
+    "location": "Austin - Downtown",
+    "rating": 5,
+    "text": "Delicious food with generous portions. Everything was cooked to perfection.",
+    "date": "2025-08-27"
+  },
+  {
+    "id": 49,
+    "location": "Los Angeles - Hollywood",
+    "rating": 3,
+    "text": "Food was fine, though I've had better elsewhere for similar prices.",
+    "date": "2025-09-15"
+  },
+  {
+    "id": 50,
+    "location": "Denver - LoDo",
+    "rating": 5,
+    "text": "Outstanding cuisine! The chef clearly knows what they're doing.",
+    "date": "2025-09-16"
+  },
+  {
+    "id": 51,
+    "location": "San Francisco - Mission District",
+    "rating": 5,
+    "text": "Outstanding cuisine! The chef clearly knows what they're doing.",
+    "date": "2025-09-08"
+  },
+  {
+    "id": 52,
+    "location": "New York - Brooklyn",
+    "rating": 2,
+    "text": "Unacceptable service standards. Our server was inattentive and dismissive.",
+    "date": "2025-08-13"
+  },
+  {
+    "id": 53,
+    "location": "Seattle - Capitol Hill",
+    "rating": 3,
+    "text": "Acceptable service quality. Nothing to complain about but nothing outstanding.",
+    "date": "2025-09-16"
+  },
+  {
+    "id": 54,
+    "location": "Denver - Highland",
+    "rating": 1,
+    "text": "Very dirty establishment. I questioned the kitchen cleanliness after seeing this.",
+    "date": "2025-08-07"
+  },
+  {
+    "id": 55,
+    "location": "Los Angeles - Santa Monica",
+    "rating": 3,
+    "text": "Decent service, though there's room for improvement in responsiveness.",
+    "date": "2025-09-09"
+  },
+  {
+    "id": 56,
+    "location": "Boston - Back Bay",
+    "rating": 5,
+    "text": "Outstanding customer service! The staff went above and beyond to help us.",
+    "date": "2025-07-22"
+  },
+  {
+    "id": 57,
+    "location": "Austin - South Lamar",
+    "rating": 4,
+    "text": "Delicious food with generous portions. Everything was cooked to perfection.",
+    "date": "2025-09-26"
+  },
+  {
+    "id": 58,
+    "location": "New York - Brooklyn",
+    "rating": 5,
+    "text": "Excellent value for money! Great quality at reasonable prices.",
+    "date": "2025-07-20"
+  },
+  {
+    "id": 59,
+    "location": "Portland - Hawthorne",
+    "rating": 1,
+    "text": "Unacceptable cleanliness levels. Health department should investigate this place.",
+    "date": "2025-09-21"
+  },
+  {
+    "id": 60,
+    "location": "Seattle - Capitol Hill",
+    "rating": 2,
+    "text": "The place was dirty and poorly maintained. Not a pleasant atmosphere.",
+    "date": "2025-07-12"
+  },
+  {
+    "id": 61,
+    "location": "Chicago - Downtown",
+    "rating": 4,
+    "text": "The decor is stunning and creates such a welcoming environment.",
+    "date": "2025-09-08"
+  },
+  {
+    "id": 62,
+    "location": "Boston - Back Bay",
+    "rating": 3,
+    "text": "Food was fine, though I've had better elsewhere for similar prices.",
+    "date": "2025-07-09"
+  },
+  {
+    "id": 63,
+    "location": "Portland - Pearl District",
+    "rating": 5,
+    "text": "Absolutely fantastic experience! Will definitely be coming back.",
+    "date": "2025-09-03"
+  },
+  {
+    "id": 64,
+    "location": "New York - Manhattan",
+    "rating": 5,
+    "text": "Perfect ambience for both casual dining and special occasions.",
+    "date": "2025-07-26"
+  },
+  {
+    "id": 65,
+    "location": "New York - Manhattan",
+    "rating": 5,
+    "text": "Excellent value for money! Great quality at reasonable prices.",
+    "date": "2025-09-28"
+  },
+  {
+    "id": 66,
+    "location": "Chicago - Downtown",
+    "rating": 5,
+    "text": "Perfect ambience for both casual dining and special occasions.",
+    "date": "2025-09-10"
+  },
+  {
+    "id": 67,
+    "location": "Seattle - Belltown",
+    "rating": 3,
+    "text": "Fair experience. Some aspects were good, others could use improvement.",
+    "date": "2025-09-12"
+  },
+  {
+    "id": 68,
+    "location": "New York - Manhattan",
+    "rating": 3,
+    "text": "Fair experience. Some aspects were good, others could use improvement.",
+    "date": "2025-09-03"
+  },
+  {
+    "id": 69,
+    "location": "San Francisco - Union Square",
+    "rating": 1,
+    "text": "Disappointing in every aspect. Will never return to this location.",
+    "date": "2025-08-24"
+  },
+  {
+    "id": 70,
+    "location": "Seattle - Belltown",
+    "rating": 3,
+    "text": "Reasonable value, though there are better deals available elsewhere.",
+    "date": "2025-08-10"
+  },
+  {
+    "id": 71,
+    "location": "Denver - Highland",
+    "rating": 1,
+    "text": "The food was cold and tasteless. Very disappointing quality for the price.",
+    "date": "2025-08-06"
+  },
+  {
+    "id": 72,
+    "location": "Miami - South Beach",
+    "rating": 5,
+    "text": "Delicious food with generous portions. Everything was cooked to perfection.",
+    "date": "2025-09-03"
+  },
+  {
+    "id": 73,
+    "location": "Denver - LoDo",
+    "rating": 1,
+    "text": "Awful experience with the staff. They were unprofessional and careless.",
+    "date": "2025-09-15"
+  },
+  {
+    "id": 74,
+    "location": "Boston - Back Bay",
+    "rating": 5,
+    "text": "Outstanding experience from start to finish. Highly recommend!",
+    "date": "2025-08-22"
+  },
+  {
+    "id": 75,
+    "location": "Austin - Downtown",
+    "rating": 3,
+    "text": "Decent meal overall. Some items were good, others just average.",
+    "date": "2025-09-03"
+  },
+  {
+    "id": 76,
+    "location": "Boston - Back Bay",
+    "rating": 3,
+    "text": "Decent place overall. Not bad but not particularly memorable either.",
+    "date": "2025-08-18"
+  },
+  {
+    "id": 77,
+    "location": "Denver - LoDo",
+    "rating": 4,
+    "text": "The decor is stunning and creates such a welcoming environment.",
+    "date": "2025-09-23"
+  },
+  {
+    "id": 78,
+    "location": "Chicago - North Side",
+    "rating": 3,
+    "text": "The food was okay, met expectations but didn't wow us.",
+    "date": "2025-09-27"
+  },
+  {
+    "id": 79,
+    "location": "Miami - South Beach",
+    "rating": 1,
+    "text": "Unacceptable service standards. Our server was inattentive and dismissive.",
+    "date": "2025-08-03"
+  },
+  {
+    "id": 80,
+    "location": "Miami - Brickell",
+    "rating": 3,
+    "text": "Food was decent, though nothing particularly memorable about the flavors.",
+    "date": "2025-09-22"
+  },
+  {
+    "id": 81,
+    "location": "Boston - Back Bay",
+    "rating": 5,
+    "text": "Outstanding value! You get so much for what you pay.",
+    "date": "2025-09-23"
+  },
+  {
+    "id": 82,
+    "location": "Seattle - Capitol Hill",
+    "rating": 4,
+    "text": "Perfect in every way. Exceeded all our expectations!",
+    "date": "2025-09-09"
+  },
+  {
+    "id": 83,
+    "location": "San Francisco - Union Square",
+    "rating": 2,
+    "text": "Very disappointing service. We waited 20 minutes just to be acknowledged.",
+    "date": "2025-08-18"
+  },
+  {
+    "id": 84,
+    "location": "Boston - Cambridge",
+    "rating": 3,
+    "text": "Service was okay, nothing special but adequate for our needs.",
+    "date": "2025-07-26"
+  },
+  {
+    "id": 85,
+    "location": "Miami - South Beach",
+    "rating": 3,
+    "text": "Fair experience. Some aspects were good, others could use improvement.",
+    "date": "2025-09-11"
+  },
+  {
+    "id": 86,
+    "location": "Denver - LoDo",
+    "rating": 1,
+    "text": "Poor food preparation. Everything was either overcooked or underseasoned.",
+    "date": "2025-09-24"
+  },
+  {
+    "id": 87,
+    "location": "Miami - South Beach",
+    "rating": 3,
+    "text": "Fair pricing overall. You get what you pay for here.",
+    "date": "2025-07-24"
+  },
+  {
+    "id": 88,
+    "location": "Austin - Downtown",
+    "rating": 5,
+    "text": "Amazing deals and high quality. Definitely worth every penny.",
+    "date": "2025-08-04"
+  },
+  {
+    "id": 89,
+    "location": "Chicago - Downtown",
+    "rating": 3,
+    "text": "Acceptable service quality. Nothing to complain about but nothing outstanding.",
+    "date": "2025-08-17"
+  },
+  {
+    "id": 90,
+    "location": "Boston - Back Bay",
+    "rating": 3,
+    "text": "Decent place overall. Not bad but not particularly memorable either.",
+    "date": "2025-09-09"
+  },
+  {
+    "id": 91,
+    "location": "Los Angeles - Santa Monica",
+    "rating": 3,
+    "text": "Average service level. Staff were polite but not particularly attentive.",
+    "date": "2025-09-23"
+  },
+  {
+    "id": 92,
+    "location": "Miami - Brickell",
+    "rating": 5,
+    "text": "Amazing flavors and presentation. Best meal I've had in a long time!",
+    "date": "2025-08-16"
+  },
+  {
+    "id": 93,
+    "location": "New York - Manhattan",
+    "rating": 2,
+    "text": "Awful experience with the staff. They were unprofessional and careless.",
+    "date": "2025-07-17"
+  },
+  {
+    "id": 94,
+    "location": "New York - Manhattan",
+    "rating": 3,
+    "text": "Food was decent, though nothing particularly memorable about the flavors.",
+    "date": "2025-10-01"
+  },
+  {
+    "id": 95,
+    "location": "San Francisco - Mission District",
+    "rating": 1,
+    "text": "Dirty tables, floors, and restrooms. Completely unacceptable standards.",
+    "date": "2025-08-27"
+  },
+  {
+    "id": 96,
+    "location": "Denver - LoDo",
+    "rating": 2,
+    "text": "The place was filthy! Tables weren't cleaned and the floors were sticky.",
+    "date": "2025-09-18"
+  },
+  {
+    "id": 97,
+    "location": "Chicago - Downtown",
+    "rating": 3,
+    "text": "Acceptable service quality. Nothing to complain about but nothing outstanding.",
+    "date": "2025-09-14"
+  },
+  {
+    "id": 98,
+    "location": "Chicago - North Side",
+    "rating": 3,
+    "text": "Decent place overall. Not bad but not particularly memorable either.",
+    "date": "2025-09-13"
+  },
+  {
+    "id": 99,
+    "location": "Boston - Cambridge",
+    "rating": 3,
+    "text": "Acceptable service quality. Nothing to complain about but nothing outstanding.",
+    "date": "2025-08-10"
+  },
+  {
+    "id": 100,
+    "location": "Boston - Back Bay",
+    "rating": 3,
+    "text": "It was okay. Nothing exceptional but met basic expectations.",
+    "date": "2025-08-25"
+  },
+  {
+    "id": 101,
+    "location": "Chicago - North Side",
+    "rating": 1,
+    "text": "Terrible food quality! My order was wrong and the taste was awful.",
+    "date": "2025-09-19"
+  },
+  {
+    "id": 102,
+    "location": "Los Angeles - Hollywood",
+    "rating": 5,
+    "text": "Amazing flavors and presentation. Best meal I've had in a long time!",
+    "date": "2025-09-09"
+  },
+  {
+    "id": 103,
+    "location": "San Francisco - Mission District",
+    "rating": 2,
+    "text": "Complete disaster! Everything went wrong during our visit.",
+    "date": "2025-09-21"
+  },
+  {
+    "id": 104,
+    "location": "Chicago - North Side",
+    "rating": 4,
+    "text": "Perfect ambience for both casual dining and special occasions.",
+    "date": "2025-08-19"
+  },
+  {
+    "id": 105,
+    "location": "New York - Manhattan",
+    "rating": 5,
+    "text": "Perfect ambience for both casual dining and special occasions.",
+    "date": "2025-09-27"
+  },
+  {
+    "id": 106,
+    "location": "Los Angeles - Hollywood",
+    "rating": 5,
+    "text": "Amazing flavors and presentation. Best meal I've had in a long time!",
+    "date": "2025-07-28"
+  },
+  {
+    "id": 107,
+    "location": "Portland - Pearl District",
+    "rating": 5,
+    "text": "Amazing staff! They were so friendly and accommodating throughout our visit.",
+    "date": "2025-07-26"
+  },
+  {
+    "id": 108,
+    "location": "New York - Manhattan",
+    "rating": 5,
+    "text": "Amazing staff! They were so friendly and accommodating throughout our visit.",
+    "date": "2025-09-22"
+  },
+  {
+    "id": 109,
+    "location": "Miami - South Beach",
+    "rating": 3,
+    "text": "Food was decent, though nothing particularly memorable about the flavors.",
+    "date": "2025-08-22"
+  },
+  {
+    "id": 110,
+    "location": "New York - Manhattan",
+    "rating": 1,
+    "text": "Terrible food quality! My order was wrong and the taste was awful.",
+    "date": "2025-08-02"
+  },
+  {
+    "id": 111,
+    "location": "New York - Manhattan",
+    "rating": 3,
+    "text": "Decent meal overall. Some items were good, others just average.",
+    "date": "2025-09-22"
+  },
+  {
+    "id": 112,
+    "location": "Los Angeles - Hollywood",
+    "rating": 5,
+    "text": "Outstanding customer service! The staff went above and beyond to help us.",
+    "date": "2025-07-12"
+  },
+  {
+    "id": 113,
+    "location": "Seattle - Belltown",
+    "rating": 4,
+    "text": "Wonderful experience with the service team. They made us feel very welcome.",
+    "date": "2025-07-13"
+  },
+  {
+    "id": 114,
+    "location": "Boston - Cambridge",
+    "rating": 5,
+    "text": "Perfect ambience for both casual dining and special occasions.",
+    "date": "2025-09-03"
+  },
+  {
+    "id": 115,
+    "location": "Chicago - North Side",
+    "rating": 5,
+    "text": "Exceptional service from start to finish. The team was incredibly professional.",
+    "date": "2025-09-17"
+  },
+  {
+    "id": 116,
+    "location": "Boston - Cambridge",
+    "rating": 2,
+    "text": "Disgusting food! I couldn't even finish my meal. Complete waste of money.",
+    "date": "2025-09-03"
+  },
+  {
+    "id": 117,
+    "location": "Chicago - Downtown",
+    "rating": 1,
+    "text": "The place was dirty and poorly maintained. Not a pleasant atmosphere.",
+    "date": "2025-09-11"
+  },
+  {
+    "id": 118,
+    "location": "Boston - Cambridge",
+    "rating": 3,
+    "text": "Fair pricing overall. You get what you pay for here.",
+    "date": "2025-09-29"
+  },
+  {
+    "id": 119,
+    "location": "Seattle - Belltown",
+    "rating": 4,
+    "text": "Everything was perfect! Great food, service, and atmosphere.",
+    "date": "2025-09-12"
+  },
+  {
+    "id": 120,
+    "location": "Boston - Cambridge",
+    "rating": 3,
+    "text": "Service was okay, nothing special but adequate for our needs.",
+    "date": "2025-08-27"
+  },
+  {
+    "id": 121,
+    "location": "Los Angeles - Santa Monica",
+    "rating": 5,
+    "text": "Outstanding value! You get so much for what you pay.",
+    "date": "2025-09-22"
+  },
+  {
+    "id": 122,
+    "location": "Chicago - North Side",
+    "rating": 3,
+    "text": "The food was okay, met expectations but didn't wow us.",
+    "date": "2025-08-04"
+  },
+  {
+    "id": 123,
+    "location": "Seattle - Belltown",
+    "rating": 5,
+    "text": "Absolutely fantastic experience! Will definitely be coming back.",
+    "date": "2025-09-15"
+  },
+  {
+    "id": 124,
+    "location": "Chicago - North Side",
+    "rating": 1,
+    "text": "The place was dirty and poorly maintained. Not a pleasant atmosphere.",
+    "date": "2025-08-17"
+  },
+  {
+    "id": 125,
+    "location": "Denver - LoDo",
+    "rating": 4,
+    "text": "The food was absolutely incredible! Fresh ingredients and perfect seasoning.",
+    "date": "2025-08-01"
+  },
+  {
+    "id": 126,
+    "location": "Seattle - Belltown",
+    "rating": 2,
+    "text": "Worst experience ever! Save your money and go somewhere else.",
+    "date": "2025-08-22"
+  },
+  {
+    "id": 127,
+    "location": "Los Angeles - Santa Monica",
+    "rating": 3,
+    "text": "Decent service, though there's room for improvement in responsiveness.",
+    "date": "2025-10-01"
+  },
+  {
+    "id": 128,
+    "location": "Denver - Highland",
+    "rating": 3,
+    "text": "Average experience overall. Some good points, some areas for improvement.",
+    "date": "2025-09-05"
+  },
+  {
+    "id": 129,
+    "location": "Los Angeles - Hollywood",
+    "rating": 3,
+    "text": "Decent place overall. Not bad but not particularly memorable either.",
+    "date": "2025-09-18"
+  },
+  {
+    "id": 130,
+    "location": "Portland - Pearl District",
+    "rating": 2,
+    "text": "Disappointing in every aspect. Will never return to this location.",
+    "date": "2025-09-06"
+  },
+  {
+    "id": 131,
+    "location": "Seattle - Belltown",
+    "rating": 1,
+    "text": "The place was dirty and poorly maintained. Not a pleasant atmosphere.",
+    "date": "2025-07-06"
+  },
+  {
+    "id": 132,
+    "location": "New York - Brooklyn",
+    "rating": 3,
+    "text": "Average service level. Staff were polite but not particularly attentive.",
+    "date": "2025-08-18"
+  },
+  {
+    "id": 133,
+    "location": "Denver - Highland",
+    "rating": 3,
+    "text": "Decent service, though there's room for improvement in responsiveness.",
+    "date": "2025-09-20"
+  },
+  {
+    "id": 134,
+    "location": "New York - Manhattan",
+    "rating": 3,
+    "text": "Decent place overall. Not bad but not particularly memorable either.",
+    "date": "2025-08-18"
+  },
+  {
+    "id": 135,
+    "location": "Seattle - Capitol Hill",
+    "rating": 1,
+    "text": "Terrible food quality! My order was wrong and the taste was awful.",
+    "date": "2025-07-13"
+  },
+  {
+    "id": 136,
+    "location": "San Francisco - Union Square",
+    "rating": 5,
+    "text": "Outstanding cuisine! The chef clearly knows what they're doing.",
+    "date": "2025-08-26"
+  },
+  {
+    "id": 137,
+    "location": "Chicago - North Side",
+    "rating": 1,
+    "text": "Terrible experience overall. Management needs to make serious improvements.",
+    "date": "2025-09-11"
+  },
+  {
+    "id": 138,
+    "location": "San Francisco - Union Square",
+    "rating": 3,
+    "text": "Fair pricing for what you get. Not cheap but not overpriced either.",
+    "date": "2025-08-03"
+  },
+  {
+    "id": 139,
+    "location": "Denver - LoDo",
+    "rating": 5,
+    "text": "Lovely ambience with comfortable seating and nice lighting.",
+    "date": "2025-09-17"
+  },
+  {
+    "id": 140,
+    "location": "Boston - Back Bay",
+    "rating": 3,
+    "text": "Fair pricing for what you get. Not cheap but not overpriced either.",
+    "date": "2025-07-12"
+  },
+  {
+    "id": 141,
+    "location": "Austin - South Lamar",
+    "rating": 1,
+    "text": "The place was dirty and poorly maintained. Not a pleasant atmosphere.",
+    "date": "2025-09-14"
+  },
+  {
+    "id": 142,
+    "location": "Miami - South Beach",
+    "rating": 1,
+    "text": "Terrible food quality! My order was wrong and the taste was awful.",
+    "date": "2025-08-25"
+  },
+  {
+    "id": 143,
+    "location": "Chicago - North Side",
+    "rating": 5,
+    "text": "Outstanding cuisine! The chef clearly knows what they're doing.",
+    "date": "2025-09-06"
+  },
+  {
+    "id": 144,
+    "location": "Seattle - Capitol Hill",
+    "rating": 1,
+    "text": "Poor service quality. The staff seemed disinterested and unfriendly.",
+    "date": "2025-07-22"
+  },
+  {
+    "id": 145,
+    "location": "San Francisco - Mission District",
+    "rating": 5,
+    "text": "Beautiful atmosphere and great music. Perfect for a date night!",
+    "date": "2025-09-01"
+  },
+  {
+    "id": 146,
+    "location": "Denver - Highland",
+    "rating": 1,
+    "text": "Unacceptable cleanliness levels. Health department should investigate this place.",
+    "date": "2025-09-14"
+  },
+  {
+    "id": 147,
+    "location": "New York - Brooklyn",
+    "rating": 3,
+    "text": "Decent meal overall. Some items were good, others just average.",
+    "date": "2025-07-08"
+  },
+  {
+    "id": 148,
+    "location": "New York - Brooklyn",
+    "rating": 3,
+    "text": "Service was okay, nothing special but adequate for our needs.",
+    "date": "2025-09-24"
+  },
+  {
+    "id": 149,
+    "location": "Los Angeles - Santa Monica",
+    "rating": 4,
+    "text": "The service here is top-notch. Staff are knowledgeable and always smiling.",
+    "date": "2025-09-03"
+  },
+  {
+    "id": 150,
+    "location": "Portland - Pearl District",
+    "rating": 5,
+    "text": "Great atmosphere! Clean, modern, and very inviting space.",
+    "date": "2025-08-04"
+  }
+]

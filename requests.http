@@ -1,0 +1,132 @@
+# ========================================
+# AUTOREVIEW API - ALL ENDPOINTS
+# ========================================
+
+### Health Check
+GET http://localhost:8000/health
+
+# ========================================
+# INGEST API
+# ========================================
+
+### Ingest reviews (with AI enrichment)
+POST http://localhost:8000/ingest
+Content-Type: application/json
+x-api-key: supersecret
+
+[
+  {"id": 1, "location": "Bangalore", "rating": 5, "text": "Great service!", "date": "2025-09-01"},
+  {"id": 2, "location": "Delhi", "rating": 2, "text": "Too slow and noisy.", "date": "2025-09-02"}
+]
+
+### Ingest reviews (without AI enrichment)
+POST http://localhost:8000/ingest?enrich=false
+Content-Type: application/json
+x-api-key: supersecret
+
+[
+  {"id": 3, "location": "Mumbai", "rating": 4, "text": "Good food quality!", "date": "2025-09-03"}
+]
+
+# ========================================
+# REVIEWS API
+# ========================================
+
+### Get all reviews
+GET http://localhost:8000/reviews
+x-api-key: supersecret
+
+### Get reviews with pagination
+GET http://localhost:8000/reviews?page=1&page_size=10
+x-api-key: supersecret
+
+### Get reviews with filters
+GET http://localhost:8000/reviews?location=NYC&sentiment=positive&min_rating=4
+x-api-key: supersecret
+
+### Get reviews with search query
+GET http://localhost:8000/reviews?q=service&page=1&page_size=5
+x-api-key: supersecret
+
+### Get reviews with date range
+GET http://localhost:8000/reviews?date_from=2025-09-01&date_to=2025-09-30
+x-api-key: supersecret
+
+### Get reviews by topic
+GET http://localhost:8000/reviews?topic=service&sentiment=negative
+x-api-key: supersecret
+
+### Get specific review by ID
+GET http://localhost:8000/reviews/1
+x-api-key: supersecret
+
+### Export reviews as CSV
+GET http://localhost:8000/reviews/export?format=csv
+x-api-key: supersecret
+
+### Export reviews as JSON
+GET http://localhost:8000/reviews/export?format=json
+x-api-key: supersecret
+
+### Export filtered reviews
+GET http://localhost:8000/reviews/export?format=csv&location=NYC&sentiment=positive
+x-api-key: supersecret
+
+# ========================================
+# AI REPLY SUGGESTIONS
+# ========================================
+
+### Suggest reply for review
+POST http://localhost:8000/reviews/1/suggest-reply
+Content-Type: application/json
+x-api-key: supersecret
+
+{"temperature": 0.2}
+
+### Suggest reply with custom temperature
+POST http://localhost:8000/reviews/1/suggest-reply
+Content-Type: application/json
+x-api-key: supersecret
+
+{"temperature": 0.8}
+
+### Suggest reply with streaming response
+POST http://localhost:8000/reviews/1/suggest-reply-stream
+Content-Type: application/json
+x-api-key: supersecret
+
+{"temperature": 0.5}
+
+### Bulk suggest replies for multiple reviews
+POST http://localhost:8000/reviews/bulk-reply
+Content-Type: application/json
+x-api-key: supersecret
+
+{
+  "review_ids": [1, 2, 3],
+  "temperature": 0.3
+}
+
+# ========================================
+# SEARCH API
+# ========================================
+
+### Search reviews by text similarity
+GET http://localhost:8000/search?q=great service
+x-api-key: supersecret
+
+### Search with custom result count
+GET http://localhost:8000/search?q=food quality&k=10
+x-api-key: supersecret
+
+### Search for negative feedback
+GET http://localhost:8000/search?q=slow poor terrible&k=5
+x-api-key: supersecret
+
+# ========================================
+# ANALYTICS API
+# ========================================
+
+### Get analytics dashboard data
+GET http://localhost:8000/analytics
+x-api-key: supersecret

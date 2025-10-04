@@ -1,0 +1,170 @@
+﻿Reviews Copilot
+
+
+Note (PLEASE READ CAREFULLY):
+1. Using AI to write code and get ideas is okay but if you submit without understanding your submission end to end, you will not make it through the first 10 minutes of the interview. So please make sure you understand all the concepts used in the assignment and your submission end to end. Interviews can go deep into any line of the code that you submit and any library being used in the submission.
+2. Make sure while submitting your assignment, you deploy it on the platform of your choice (Streamlit, Netlify etc.), we should be able to use the deployed link to feed configurations and get keywords without which your submission will not be considered.
+3. Do not put the submission on github, only share the zip file and deployed link on the same email you received the submission from..
+4. Frontend should be in React and Backend (python) should be in fastAPI. Use Lovable or any other tool to come up with the design and workflow.
+5. After submission, code will go through MOSS detector which will indicate the code similarity percentage of any previously submitted assignment, if it’s classified as a copy, your submission will be rejected. It detects cheating and if you submit direct output of AI tools.
+Goal
+Build a small web app for a multi-location business to ingest customer reviews, search/filter, analyze sentiment/topics, and draft a suggested reply using an LLM (or a local fallback).
+* Frontend: React (or Streamlit if you prefer), deployed publicly.
+
+* Backend: FastAPI with clean REST endpoints + OpenAPI docs at /docs. FastAPI provides automatic, interactive docs (Swagger UI). FastAPI
+
+* AI: use an LLM API if you have a key; otherwise use a tiny Hugging Face transformers pipeline (e.g., sentiment-analysis, summarization). Hugging Face+1
+
+* Search/RAG-lite: implement TF-IDF + cosine similarity to retrieve similar reviews for a query. Use scikit-learn’s TfidfVectorizer and cosine_similarity. Scikit-learn+1
+
+Timebox: Spend 6–8 hours max within 24 hours. Call out trade-offs you made.
+________________
+
+
+Features
+1) Ingest
+   * Upload or POST a JSON array of reviews:
+{ id, location, rating (1–5), text, date }
+
+   * Store in SQLite (or Postgres). Keep it simple.
+
+2) Browse & Search
+      * Table view with filters: location, sentiment (once computed), text search.
+
+      * Clicking a row shows a detail view.
+
+3) Analytics
+         * Counts by sentiment and by a coarse topic tag (e.g., “service”, “cleanliness”, “price”). Show a basic bar chart.
+
+4) AI-assist
+            * Button: “Suggest reply” → generate a concise, empathetic draft response.
+
+            * Return { reply, tags: {sentiment, topic}, reasoning_log }.
+
+            * Add basic safeguards (e.g., redact emails/phones; avoid toxic language) — a simple rules check is fine.
+
+5) Similar Reviews (RAG-lite)
+               * Endpoint GET /search?q= returns top-5 similar reviews using TF-IDF vectors and cosine similarity. Scikit-learn+1
+
+________________
+
+
+API (FastAPI)
+Expose these routes (with pydantic models + error handling):
+                  * POST /ingest — accept the reviews array; persist.
+
+                  * GET /reviews?location=&sentiment=&q=&page=&page_size= — server-side filtering + pagination.
+
+                  * GET /reviews/{id} — full record.
+
+                  * POST /reviews/{id}/suggest-reply — returns { reply, tags, reasoning_log }.
+
+                  * GET /analytics — counts by sentiment/topic.
+
+                  * GET /search?q=&k= — TF-IDF + cosine similarity results.
+
+                  * GET /health
+
+Include automatic docs at /docs (Swagger UI) and /redoc. FastAPI generates these by default. FastAPI
+Auth: a single API key via header is enough for this exercise.
+Tests: add at least one happy-path + one error-path test for any endpoint.
+________________
+
+
+Frontend (React or Streamlit)
+                     * Inbox page: table with filters + search, pagination, loading/error states.
+
+                     * Detail page: full review, AI tags, editable suggested reply with “Copy” action.
+
+                     * Analytics page: simple bar chart (any chart lib or plain HTML/SVG).
+
+If using React, call your FastAPI endpoints (don’t call models from the browser).
+If using Streamlit, you may still keep FastAPI as a separate backend and call it from Streamlit (recommended to exercise both FE and BE). Deployment docs for Streamlit Community Cloud are here. docs.streamlit.io
+________________
+
+
+AI Integration (pick one or support both)
+                        1. LLM API path (e.g., OpenAI/Claude) — read keys from env; expose basic knobs (temperature/system prompt/few-shots).
+
+                        2. Local fallback — use transformers pipelines for:
+
+                           * sentiment-analysis → sentiment
+
+                           * summarization → a short gist to seed the reply
+(Any small model is fine; keep downloads light.) Hugging Face+1
+
+________________
+
+
+Deployment (required)
+Provide a public URL. Choose one:
+                              * React frontend on Vercel (quickstart here) or Netlify. Vercel+1
+
+                              * Streamlit app on Streamlit Community Cloud (if you built Streamlit). docs.streamlit.io
+
+If using React + FastAPI, deploy the frontend on Vercel or Netlify, and deploy the backend anywhere you like (Render/Railway/Fly/etc.). Vercel/Netlify docs cover the React deploy steps; follow their CLI or Git-based flow. Vercel+1
+(If you prefer deploying React on Vercel via CLI, see vercel --prod guide. Vercel)
+________________
+
+
+What we’ll evaluate (100 pts)
+                                 * Backend design & correctness (25) — clear models, pagination, errors, minimal tests.
+
+                                 * Frontend UX & state (20) — simple, robust flows; loading/error handling.
+
+                                 * Applied-AI quality (25) — useful reply, sensible tagging, basic guardrails.
+
+                                 * Search/RAG-lite (10) — TF-IDF + cosine similarity implemented correctly. Scikit-learn+1
+
+                                 * Product thinking (10) — pragmatic defaults; trade-offs noted.
+
+                                 * Code quality (10) — structure, typing, linting, README.
+
+                                 * Bonus (+5) — thoughtful touches (e.g., streaming replies, rate limiting, tiny E2E test).
+
+________________
+
+
+Submission
+                                    1. Folder Zip file with:
+
+                                       * README.md (setup, .env sample, how to run tests, how you deployed, time spent + trade-offs).
+
+                                       * Minimal seed dataset at data/reviews.json (50–200 rows).
+
+                                       * requests.http or curl examples for each API route.
+
+                                          2. Live URL(s):
+
+                                             * Frontend (Vercel/Netlify/Streamlit) — required. Vercel+2Netlify Docs+2
+
+                                             * Backend (if separate) — optional to expose; if private, share a short screen-capture demo.
+
+                                                3. Short screen-capture (≤3 min) walking through flows and design choices.
+
+________________
+
+
+Constraints & Notes
+                                                   * Keep it shippable within 6–8 hours; it’s fine to stub pieces. Call out what you’d do next with more time.
+
+                                                   * Prefer small libs you already know.
+
+                                                   * FastAPI generates interactive docs at /docs (Swagger UI) by default; don’t over-engineer. FastAPI
+
+                                                   * For TF-IDF search, TfidfVectorizer + cosine_similarity is sufficient. Scikit-learn+1
+
+                                                   * For a quick AI fallback, use transformers pipelines (pipeline('sentiment-analysis'), pipeline('summarization')). Hugging Face+1
+
+________________
+
+
+Tiny sample (format)
+[
+  {"id": 1, "location": "NYC", "rating": 2, "text": "Waited 40 min for pickup; staff seemed overwhelmed.", "date": "2025-06-12"},
+  {"id": 2, "location": "NYC", "rating": 5, "text": "Quick service and super friendly at checkout!", "date": "2025-06-13"},
+  {"id": 3, "location": "SF",  "rating": 3, "text": "Food was good but order notes were ignored.", "date": "2025-06-15"},
+  {"id": 4, "location": "SF",  "rating": 1, "text": "App kept crashing, couldn’t place order.", "date": "2025-06-16"},
+  {"id": 5, "location": "LA",  "rating": 4, "text": "Clean store, decent prices, parking a bit tight.", "date": "2025-06-18"},
+  {"id": 6, "location": "LA",  "rating": 2, "text": "Delivery late and items missing.", "date": "2025-06-20"}
+]
