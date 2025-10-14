@@ -115,7 +115,7 @@ python -m pytest -v
 python -m pytest app/tests/test_ingest.py -v
 ```
 
-## how you deployed
+## how I deployed
 
 ### Local Development
 ```bash
